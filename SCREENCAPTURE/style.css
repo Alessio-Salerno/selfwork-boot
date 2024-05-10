@@ -1,0 +1,157 @@
+.img-fluid{
+    width: 100px;
+}
+
+
+*{
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+/* Variabili */
+:root{
+    --w: rgb(247, 247, 247);
+    --bl: rgb(199,21,133);
+    --pu: rgb(128,0,128);
+    --me: rgb(199,21,133);
+}
+
+
+/* NAVBAR */
+ .navbar{
+    background-color: var(--me);
+    
+    }
+    
+ .menu{
+    color: white;
+ }
+
+
+
+ .img{
+    width: 150px;
+ }
+
+/* HEADER */
+
+.custom-header{
+    height:100vh;
+    background-image: url(bg-2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.img-1{
+    width: 300px;
+    margin-bottom: 2pc;
+    animation: slide 1.5s;
+}
+
+
+@keyframes slide {
+    0% { margin-left: -100%; } /* Margin left al -100% all'inizio per spostare l'immagine fuori dallo schermo a sinistra */
+  100% { margin-left: 0%; }
+}
+
+.primo{
+    margin-bottom: 10px;
+    text-align: center;
+    margin-top: 1pc;
+    white-space: pre-wrap;
+}
+
+
+.primo-blocco{
+    flex-direction: column;
+}
+
+.custom-header-2{
+    height: 90vh;
+    background-image: url(bg-3.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+
+.img-3{
+    width: 500px;
+}
+
+
+
+
+
+/* SECTION 1 */
+
+.section-1{
+    height: 100vh;
+    background-image: url(bg-1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.img-4{
+    width: 400px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:680px){
+    .custom-header{
+        background-position: center;
+        background-size: cover;
+    }
+
+   .img-1{
+    width: 200px;
+   }
+
+   .custom-header-2{
+    background-position: center;
+    background-size: cover;
+   }
+
+.img-3{
+    width: 350px;
+}
+
+}
+    
